@@ -1,0 +1,15 @@
+{
+  "name": "lab_interacting_html_css_js",
+  "version": "1.0.0",
+  "description": "🧪 Taller: HTML, CSS y JavaScript\r Descripción\r Este taller consiste en crear una página web interactiva que muestre un contador y permita modificar su valor mediante botones, aplicando estilos dinámicos con JavaScript.",
+  "main": "contador.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
