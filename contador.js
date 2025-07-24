@@ -12,7 +12,7 @@ document.getElementById("sumar").addEventListener("click", function(){
     if (contador >= 10) {
         mostrarValor.style.color = "purple";
     } else {
-    mostrarValor.style.color = "black";
+        mostrarValor.style.color = "black";
     }
     
 })
@@ -27,7 +27,7 @@ document.getElementById("restar").addEventListener("click", function(){
     if (contador >= 10) {
         mostrarValor.style.color = "purple";
     } else {
-    mostrarValor.style.color = "black";
+        mostrarValor.style.color = "black";
     }
     
 })

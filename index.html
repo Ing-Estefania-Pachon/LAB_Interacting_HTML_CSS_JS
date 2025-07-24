@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>ContadorDeClics</title>
+    <title>Goku Comiendo</title>
 </head>
 <body>
-    <header>
-        <h1 id="titulo">CONTADOR DE CLICS 🖱️</h1>
+
+    <header class="encabezado">
+        <img src="Imagenes/Dragon_Ball_anime_logo.png" alt="LogoDBZ" class="logoDBZ">
+        <img src="Imagenes/Shen_Long_Artwork.webp" alt="Shen_Long" class="shenlong">
     </header>
     
-    <main>
-        
-        <h1>Contador: <span id="valor">0</span></h1>
 
-        <button type="submit" id="sumar" class="miBoton">SUMA UNO !!!</button>
+    <main class="intro">
+        <h1 id="titulo">DALE DE COMER A GOKU 🍜</h1>
+
+        <button type="submit" id="sumar" class="miBoton">COMER</button>
         <button type="submit" id="restar" class="miBoton">RESTA UNO !!!</button>
         
     </main>
+    
+    <div id="contenedor-goku">
+        <div class="burbuja">
+            <p>¿Cuántos platos van? <span id="valor">0</span></p>
+        </div>
+        <img src="Imagenes/goku.gif" alt="Goku comiendo" id="goku">
+    </div>
 
     <script src="contador.js"></script>
 
